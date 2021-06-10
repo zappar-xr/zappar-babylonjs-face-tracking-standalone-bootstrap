@@ -11,7 +11,7 @@ const scene = new BABYLON.Scene(engine);
 const light = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(0, 1, 0), scene);
 
 // Setup a Zappar camera instead of one of Babylon's cameras
-const camera = new ZapparBabylon.Camera(scene);
+const camera = new ZapparBabylon.Camera('camera', scene);
 
 // Request the necessary permission from the user
 ZapparBabylon.permissionRequestUI().then((granted) => {
@@ -21,7 +21,7 @@ ZapparBabylon.permissionRequestUI().then((granted) => {
 
 // Set up our image tracker transform node
 const faceTracker = new ZapparBabylon.FaceTrackerLoader().load();
-const trackerTransformNode = new ZapparBabylon.FaceTrackerTransformNode(camera, faceTracker);
+const trackerTransformNode = new ZapparBabylon.FaceTrackerTransformNode('tracker', camera, faceTracker, scene);
 
 const material = new BABYLON.StandardMaterial('mat', scene);
 material.diffuseTexture = new BABYLON.Texture("./faceMeshTemplate.png", scene);
