@@ -1,12 +1,13 @@
-# Zappar for BabylonJS
+# Zappar for BabylonJs
+
 ## Standalone Bootstrap Project
 
-In this project you'll find the following files that get you up and running with Zappar for BabylonJS.
+In this project you'll find the following files that get you up and running with Zappar for BabylonJs.
 - *index.html*: contains the basic structure of you page and any necessary HTML UI elements
-- *index.js*: contains the code the sets up your BabylonJS scene and AR experience
+- *index.js*: contains the code the sets up your BabylonJs scene and AR experience
 - *style.css*: contains the CSS for your page
 
-Head to the NPM package page for more information on how to build best-in-class AR experiences: [Zappar for BabylonJS](https://www.npmjs.com/package/@zappar/zappar-babylonjs) (@zappar/zappar-babylonjs)
+Head to the NPM package page for more information on how to build best-in-class AR experiences: [Zappar for BabylonJs](https://www.npmjs.com/package/@zappar/zappar-babylonjs) (@zappar/zappar-babylonjs)
 
 ## Preview
 Scan the QR code below using your native camera app or QR code reader to view the example:
